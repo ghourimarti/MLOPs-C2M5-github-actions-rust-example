@@ -22,3 +22,4 @@ release:
 	cargo build --release
 
 all: format lint test run
+alls: format lint test run release
